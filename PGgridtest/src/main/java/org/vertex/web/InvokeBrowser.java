@@ -60,7 +60,7 @@ public class InvokeBrowser {
 	public void verifyUserLogin() throws InterruptedException, AWTException, MalformedURLException {
 		
 		
-		  String userName ="karthik.k";
+		  String userName ="";
 		  String password ="";
 		  String domain ="intranet.vertexcs.com/SitePages/downloads.aspx?ctype=Downloads"; 
 		  String url= "http://"+userName+":"+password+"@"+domain;
