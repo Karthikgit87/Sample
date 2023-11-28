@@ -77,6 +77,9 @@ public class InvokeBrowser {
 //		
 		System.out.println("Page Tiltle is "+ s);
 		
+		System.out.println("Page Tiltle is "+ s);
+
+		
 		/*
 		 * WebElement element = driver.findElement(By.xpath(s));
 		 * ((RemoteWebElement)element).setFileDetector(new LocalFileDetector());
