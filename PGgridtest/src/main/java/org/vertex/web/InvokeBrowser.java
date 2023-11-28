@@ -77,7 +77,7 @@ public class InvokeBrowser {
 //		
 		System.out.println("Page Tiltle is "+ s);
 		
-		System.out.println("Page Tiltle is "+ s);
+		System.out.println("Page  is "+ s);
 
 		
 		/*
