@@ -39,8 +39,11 @@ public class InvokeBrowser {
 		//chromeOptions.setCapability(CapabilityType.BROWSER_NAME, "chrome");
 		//chromeOptions.setCapability(CapabilityType.PLATFORM_NAME, Platform.WIN11);
 		try {
-			driver = new RemoteWebDriver(new URL("http://localhost:4444"), new ChromeOptions());
-		} catch (MalformedURLException e) {
+			driver=new ChromeDriver();
+			
+			//driver = new RemoteWebDriver(new URL("http://localhost:4444"), new ChromeOptions());
+		}//MalformedURLException
+		catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -51,8 +54,7 @@ public class InvokeBrowser {
 				//driver = new RemoteWebDriver(new URL("http://www.myexamplebrowserstack.com"), chromeOptions);
 				//driver.get("http://www.google.com");
 				//driver.quit();
-						
-						
+												
 						
 						
 	}
@@ -62,8 +64,9 @@ public class InvokeBrowser {
 		
 		  String userName ="";
 		  String password ="";
-		  String domain ="intranet.vertexcs.com/SitePages/downloads.aspx?ctype=Downloads"; 
-		  String url= "http://"+userName+":"+password+"@"+domain;
+		 // String domain ="intranet.vertexcs.com/SitePages/downloads.aspx?ctype=Downloads"; 
+		  //String url= "http://"+userName+":"+password+"@"+domain;
+		  String url ="https://www.google.com/";
 		  System.out.println("Application is "+url);
 		 	 
 		driver.get(url);
@@ -77,7 +80,7 @@ public class InvokeBrowser {
 //		
 		System.out.println("Page Tiltle is "+ s);
 		
-		System.out.println("Page  is "+ s);
+		System.out.println("Page Tiltle is "+ s);
 
 		
 		/*
