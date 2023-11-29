@@ -32,12 +32,12 @@
 				<version>2.18.1</version>
 				<configuration>
 					<includes>
-					<include>InvokeBrowser.java</include>	
+					<!--<include>InvokeBrowser.java</include>-->	
 					</includes>
-				<!--<suiteXmlFiles>
-						<TestNG suite XML files>
-						<suiteXmlFile>Testng.xml</suiteXmlFile>
-					</suiteXmlFiles>  -->
+				<suiteXmlFiles>
+					<!-- <TestNG suite XML files>-->	 
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles> 
 				</configuration>
 			</plugin>
 		
