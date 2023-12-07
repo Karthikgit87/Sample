@@ -35,7 +35,7 @@
 					<!--<include>InvokeBrowser.java</include>-->	
 					</includes>
 				<suiteXmlFiles>
-					<!-- <TestNG suite XML files>-->	 
+					 <!--<TestNG suite XML files>	--> 
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles> 
 				</configuration>
@@ -62,7 +62,20 @@
         <version>4.5.13</version> <!-- Use the latest version available -->
     </dependency>
     
-   
+   <!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>javax.mail-api</artifactId>
+    <version>1.5.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-email</artifactId>
+    <version>1.5</version>
+</dependency>
+
    
    <dependency>
     <groupId>javax.mail</groupId>
