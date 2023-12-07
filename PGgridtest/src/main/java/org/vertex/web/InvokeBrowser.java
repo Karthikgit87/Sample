@@ -45,7 +45,7 @@ public class InvokeBrowser {
 		//chromeOptions.setCapability(CapabilityType.BROWSER_NAME, "chrome");
 		//chromeOptions.setCapability(CapabilityType.PLATFORM_NAME, Platform.WIN11);
 		try {
-			//driver=new ChromeDriver();
+			driver=new ChromeDriver();
 			
 			//driver = new RemoteWebDriver(new URL("http://localhost:4444"), new ChromeOptions());
 		}//MalformedURLException
@@ -58,7 +58,7 @@ public class InvokeBrowser {
 				chromeOptions.setCapability("browserVersion", "74");
 				chromeOptions.setCapability("platformName", "Windows 10");
 				//driver = new RemoteWebDriver(new URL("http://www.myexamplebrowserstack.com"), chromeOptions);
-				//driver.get("http://www.google.com");
+			//	driver.get("http://www.google.com");
 				//driver.quit();
 												
 						
