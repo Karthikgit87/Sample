@@ -24,9 +24,9 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-  schedules:
+  schedule:
 - cron: "50 17 * * *"
   displayName: Daily1750
   branches:
     include:
-    - '*'
+    - '*' 
