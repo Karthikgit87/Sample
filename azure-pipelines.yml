@@ -23,3 +23,10 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+
+    schedules:
+- cron: "0 0 * * *"  # This will run the pipeline daily at midnight
+  displayName: DailyMidnight
+  branches:
+    include:
+    - '*'
